@@ -5,10 +5,10 @@
         * Date Last Modified: April 27, 2026
         */
 
-import java.util.Random;//imports Input and Random
+import java.util.Random;
 import java.util.Scanner;
 
-public class ProblemSet {
+public class Main {
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
@@ -18,6 +18,7 @@ public class ProblemSet {
 //thisRideIsRightAboutToStart
 
         int rounds = 0;
+        int plays=0;
         boolean validation = false;
 
         while (!validation) { 
@@ -50,7 +51,7 @@ public class ProblemSet {
                 System.out.println("2. Low (0 to 9)");
                 System.out.println("3. Even (10)");//thisMakesItAllWork
 
-                if (scanner.hasNextInt()) {//
+                if (scanner.hasNextInt()) {
                     selection = scanner.nextInt();
                     if (selection >= 1 && selection <= 3) {
                         greatSelection = true;
@@ -74,8 +75,16 @@ public class ProblemSet {
             } else if (selection == 3 && num == 10) {
                 rightOn = true;
             }
-
-            System.out.println("\nThe number was " + num + ". You were " + (rightOn ? "correct." : "incorrect."));
+            
+            if (rightOn = true){
+                return "The number was" + num+ ". You were" + rightOn "correct"
+                
+            }
+                
+                else {
+                    "The number was" + num+ ". You were" + rightOn "incorrect"
+                    
+                }
 
             if (rightOn) {
                 score = score + 1;
