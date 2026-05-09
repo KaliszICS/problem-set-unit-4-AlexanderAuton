@@ -8,7 +8,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class Main {
+public class HighLowGame {
 
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
@@ -76,15 +76,15 @@ public class Main {
                 rightOn = true;
             }
             
-            if (rightOn = true){
-                return "The number was" + num+ ". You were" + rightOn "correct"
+            // if (rightOn = true){
+            //     return "The number was" + num+ ". You were" + rightOn "correct"
                 
-            }
+            // }
                 
-                else {
-                    "The number was" + num+ ". You were" + rightOn "incorrect"
+            //     else {
+            //         "The number was" + num+ ". You were" + rightOn "incorrect"
                     
-                }
+            //     }
 
             if (rightOn) {
                 score = score + 1;

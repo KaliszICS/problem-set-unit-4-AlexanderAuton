@@ -1,0 +1,10 @@
+K(30%): 100
+I(30%): 85
+C(10%): 70
+A(30%): 85
+88% of 90 - 79.2%
+
+Please use better comments.
+Use nextLine() instead of next.  next only reads 1 word, not the entire input.
+Correct/incorrect code does not compile or work.
+Otherwise good work
